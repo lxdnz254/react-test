@@ -19,5 +19,5 @@
     "predeploy": "npm run build",
     "deploy" : "gh-pages -d build"
   },
-  "homepage": "http://lxdnz.github.io/react-test"
+  "homepage": "http://lxdnz254.github.io/react-test"
 }
