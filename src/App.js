@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Hello from './Hello' ;
+import MapContainer from "./MapContainer";
 
 class App extends Component {
   render() {
@@ -12,7 +13,9 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <Hello/>
+          <MapContainer/>
       </div>
+
     );
   }
 }
