@@ -10,10 +10,14 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">Aria Orienteering</h1>
         </header>
-        <Hello/>
-          <MapContainer/>
+          <div className="container-fluid">
+              <div className="row">
+                <Hello className="col-xs-3"/>
+                  <MapContainer className="col-xs-9"/>
+            </div>
+          </div>
       </div>
 
     );
