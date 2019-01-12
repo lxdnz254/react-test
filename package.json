@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "bootstrap": "^4.0.0",
+    "bootstrap": "^4.2.1",
     "dotenv": "^5.0.1",
     "google-map-react": "^0.34.0",
     "lodash": "^4.17.11",
